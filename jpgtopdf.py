@@ -1,10 +1,6 @@
 from fpdf import FPDF
 import os
 
-img_path = "/Users/nelsonparra/Desktop/05232022_FE_A_RGI_2"
-pdf_path = "/Users/nelsonparra/Desktop/pdffolder"
-image = img_path
-
 # creating pdf
 pdf = FPDF(orientation="P", unit="mm", format="letter")
 images = []
